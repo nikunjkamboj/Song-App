@@ -1,0 +1,59 @@
+{
+  "Songs": [
+    {
+      "id": "1",
+      "song": "RAGHUPATI RAGHAV.mp3",
+      "title": "Sanam Teri Kasam",
+      "singer": "kumar shanu",
+      "lyrics": "mohan lal",
+      "music": "vishal"
+    },
+    {
+      "id": "2",
+      "song": "APNI TO JEESI TEESI.mp3",
+      "title": "Apni to jaise tese",
+      "singer": "kumar shanu",
+      "lyrics": "mohan lal",
+      "music": "vishal"
+    },
+    {
+      "song": "RAM TERI GANGA  .mp3",
+      "title": "Ram Teri ganga maili",
+      "singer": "lalu ji",
+      "lyrics": "Ravindra Jain",
+      "music": "Ravindra Jain",
+      "id": "3"
+    },
+    {
+      "id": "ebdd",
+      "song": "C:\\fakepath\\01 Shri Hanumaan Chalisa -gulshan kumar.mp3",
+      "title": "hanuman chalisa",
+      "singer": "gulshan kumar",
+      "lyrics": "tulsidas",
+      "music": "t series"
+    },
+    {
+      "id": "19ac",
+      "song": "C:\\fakepath\\(R)gayatri mantra.mp3",
+      "title": "gayatri mantra",
+      "singer": "lata didi",
+      "lyrics": "tulsiram ",
+      "music": "shyam lala"
+    },
+    {
+      "title": "balram's song",
+      "singer": "balram ",
+      "lyrics": "atul ",
+      "music": "chajarsii",
+      "id": "59ad"
+    },
+    {
+      "id": "917f",
+      "song": "Jan-Gan-Man(PaglaSongs).mp3",
+      "title": "jan gan man",
+      "singer": "Ravindernath Tagor",
+      "lyrics": "Ravindernath Tagor",
+      "music": "Ravindernath Tagor"
+    }
+  ]
+}
