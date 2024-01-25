@@ -12,7 +12,7 @@ function Update() {
   let [lyrics,setlyrics] =useState()
   let [music,setmusic] =useState()
 
-
+//console.log
   useEffect(()=>{
     axios.get("http://localhost:3000/Songs/"+id).then((res)=>{
     console.log(res.data);
