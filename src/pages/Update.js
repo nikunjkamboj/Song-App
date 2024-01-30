@@ -6,17 +6,17 @@ import axios from 'axios'
 function Update() {
   let {id} =useParams()
    let navigate  = useNavigate()
-  // let [song,setsong] =useState()
+  let [song,setsong] =useState()
   let [title,settitle] =useState() 
   let [singer,setsinger] =useState()
   let [lyrics,setlyrics] =useState()
   let [music,setmusic] =useState()
 
-//console.log
+
   useEffect(()=>{
     axios.get("http://localhost:3000/Songs/"+id).then((res)=>{
     console.log(res.data);
-    //  setsong(res.data.song)
+     setsong(res.data.song)
     //  console.log(song);
      settitle(res.data.title)
       setsinger(res.data.singer)
@@ -45,6 +45,11 @@ function Update() {
   <input type="file" name='name' className="form-control"  placeholder="Upload Song" 
    value={song} onChange={(e)=>{setsong(e.target.value)}} />
 </div> */}
+
+<div className="mb-3">
+<audio className="form-control"  controls src={song} />
+</div>
+
 <div className="mb-3">
   <label  className="form-label">Song Name</label>
   <input type="text" name='age' className="form-control"  placeholder="Enter Song name"
