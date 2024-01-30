@@ -38,7 +38,7 @@ function Update() {
   return (
     <>
 
-<div className='mx-auto col-5 m-5 dataUpdate p-3'>
+<div className='mx-auto col-8 m-5 p-2 dataUpdate'>
    <form onSubmit={updateUser}>
    {/* <div className="mb-3">
   <label  className="form-label">Song</label>
